@@ -1,0 +1,45 @@
+.tasks {
+    overflow: auto;
+    margin-left: 25px;
+    width: 300px;
+    height: 530px;
+    border: 1px solid aqua;
+    border-radius: 10px;
+  }
+  
+  .header {
+    margin-top: 20px;
+    text-align: center;
+    font-family: AdventPro-Bold;
+    font-size: large;
+    color: rgb(191, 245, 245);
+    text-decoration: underline aqua;
+  }
+  
+  .task {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-left: 5px;
+    font-family: AdventPro-Regular;
+    font-size: large;
+    color: rgb(191, 245, 245);
+    border: 1px solid rgba(113, 116, 116, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .sm_date {
+    font-size: small;
+    font-weight: bold;
+  }
+  
+  .delete {
+    float: right;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-top: -2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+    cursor: pointer;
+  }

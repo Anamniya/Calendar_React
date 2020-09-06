@@ -1,0 +1,8 @@
+.calendar {
+    margin: auto;
+    margin-top: 50px;
+    width: 830px;
+    height: 530px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
